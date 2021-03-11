@@ -11,7 +11,28 @@ int main()
     printf("*");
     for(i=0;i<x;i++)
         printf("_");
+    if(n%2==0)
+    {
 
+        for(j=0;j<2;j++)
+        {
+        printf("*");
+        for(i=0;i<n/2;i++)
+        printf("*");
+        }
+
+
+
+    }
+    else
+    {
+
+
+        printf("*");
+        for(i=0;i<(n/2)+1;i++)
+        printf("*");
+
+    }
 
 
 
