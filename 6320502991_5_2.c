@@ -8,12 +8,16 @@ int main()
       k--;
     for(i=0;i<n;i++)
     {
-        for(j=0;j<k;j++)
-    {
-
-    }
+        for(j=1;j<=k;j++)
+        {
+            printf("_");
+            if(j%2==0)
+                printf("*");
+            printf("_");
+        }
     printf("\n");
     }
+    printf("*");
 
 
 
