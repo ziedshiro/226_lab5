@@ -17,6 +17,17 @@ int main()
 
 
 
+    for(i=0;i<x;i++)
+        printf("_");
+    printf("*");
+    for(i=0;i<x;i++)
+        printf("_");
+
+
+
+
+
+
 
 
 }
