@@ -22,7 +22,7 @@ int main()
     {
         for(j=X;j>0;j--)
         {
-            if(j==x+i-1||j==x-i-1)
+            if(j==x+i-1||j==x-i+1)
             printf("*");
             else
             printf("_");
