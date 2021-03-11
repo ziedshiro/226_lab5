@@ -18,7 +18,17 @@ int main()
         }
         printf("\n");
     }
-
+        for(i=x;i>0;i--)
+    {
+        for(j=X;j>0;j--)
+        {
+            if(j==x+i-1||j==x-i-1)
+            printf("*");
+            else
+            printf("_");
+        }
+        printf("\n");
+    }
     }
     else
     {
@@ -35,6 +45,16 @@ int main()
         }
         printf("\n");
     }
+        for(i=x-1;i>0;i--)
+    {
+        for(j=X;j>0;j--)
+        {
+            if(j==x+i-1||j==x-i+1)
+            printf("*");
+            else
+            printf("_");
+        }
+        printf("\n");
 
     }
 
@@ -44,5 +64,5 @@ int main()
 
 
 
-
+    }
 }
