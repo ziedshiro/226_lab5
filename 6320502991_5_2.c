@@ -1,48 +1,42 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j,x,X,m;
+    int n,i,j,x,X,m,k;
     scanf("%d",&n);
-    x=n/2;
-    if(n%2==0)
-        x--;
-    for(i=0;i<x;i++)
-        printf("_");
-    printf("*");
-    for(i=0;i<x;i++)
-        printf("_");
     if(n%2==0)
     {
-
-        for(j=0;j<2;j++)
+        x=n/2;
+        X=n-1;
+        for(i=0;i<x;i++)
+    {
+        for(j=0;j<X;j++)
         {
-        printf("*");
-        for(i=0;i<n/2;i++)
-        printf("*");
+            if(j==x+i-1||j==x-i-1)
+            printf("*");
+            else
+            printf("_");
         }
-
-
+        printf("\n");
+    }
 
     }
     else
     {
-
-
-        printf("*");
-        for(i=0;i<(n/2)+1;i++)
-        printf("*");
-
+    x=(n+1)/2;
+    X=n;
+    for(i=0;i<x;i++)
+    {
+        for(j=0;j<X;j++)
+        {
+            if(j==x+i-1||j==x-i-1)
+            printf("*");
+            else
+            printf("_");
+        }
+        printf("\n");
     }
 
-
-
-
-
-    for(i=0;i<x;i++)
-        printf("_");
-    printf("*");
-    for(i=0;i<x;i++)
-        printf("_");
+    }
 
 
 
