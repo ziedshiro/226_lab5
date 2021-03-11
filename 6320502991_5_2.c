@@ -6,7 +6,15 @@ int main()
     k=n/2;
     if(n%2==0)
       k--;
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<k;j++)
+    {
 
-    printf("%d",k);
+    }
+    printf("\n");
+    }
+
+
 
 }
